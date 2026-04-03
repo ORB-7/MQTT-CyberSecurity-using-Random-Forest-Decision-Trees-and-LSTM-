@@ -84,7 +84,9 @@ Two types of machine learning models (Decision Tree and RandomForestClassifier) 
 
 ## Unique Contribution
 
-The project's most significant and unique contribution lies in the **consistent and dramatic improvement in detecting 'Target 3' attacks** through **domain-specific feature engineering**. These attacks, characterized by exceptionally low `tcp_len` and near-zero `mqtt_msg` counts, are often difficult to identify with standard feature sets. Our approach transformed `Target 3` from a poorly detected class (F1-scores around 0.3) into a moderately well-detected one (F1-scores up to 0.82). This highlights a novel approach to identifying **subtle, resource-efficient attacks** in MQTT-based IoT environments, which is crucial for modern IDS that need to look beyond high-volume anomalies and address nuanced protocol abuses.
+The project's most significant and unique contribution lies in the **consistent and dramatic improvement in detecting 'Target 3' attacks** through **domain-specific feature engineering**. These attacks, characterized by exceptionally low `tcp_len` and near-zero `mqtt_msg` counts, are often difficult to identify with standard feature sets. Our approach transformed `Target 3` from a poorly detected class (F1-scores around 0.3) into a moderately well-detected one (F1-scores up to 0.82). This highlights a novel approach to identifying **subtle, resource-efficient attacks** in MQTT-based IoT environments, which is crucial for modern IDS that need to look beyond high-volume anomalies and address nuanced protocol abuses. 
+
+We also leveraged the latest MQTT dataset (2025) for our study, which was made publicly available by the aforementioned authors
 
 ## Future Work and Refinements
 
